@@ -175,7 +175,7 @@ ADD is also like COPY to copy the content inside the image. But ADD has 2 extra 
 1. It can directly fetch the content from internet
 2. It can directly untar the file inside container/image
 
-CMD ENTRYPOINT
+CMD vs ENTRYPOINT (important)
 ===================
 1. CMD instruction can be overriden.
 2. ENTRYPOINT can't be overriden, if we try it will go and append that leads to failure
