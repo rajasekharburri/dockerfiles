@@ -1,4 +1,4 @@
-<!-- FROM -> refer base OS
+FROM -> refer base OS
 RUN -> configure the image, install, create user, folder, etc.
 CMD -> command to start the container
 ENTRYPOINT ->  command to start the container,but can't be overriden. used with CMD, CMD can supply default args. Users always can override default args
@@ -168,4 +168,4 @@ ARG vs ENV
 ==========
 1. ENV is used to supply the key value pairs for the container/runtime
 2. ARG is used to supply the values to variables at build time.
-3. ARG can't be accessible inside container. -->
+3. ARG can't be accessible inside container.
