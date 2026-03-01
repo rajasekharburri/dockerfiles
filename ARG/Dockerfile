@@ -1,8 +1,5 @@
 ARG VERSION
 FROM almalinux:${VERSION:-9}
-
-# FROM instruction we can't access ARG variable
-
 ARG COURSE="DOCKER" \
     TRAINER="SIVAKUMAR"
 ENV COURSE=${COURSE}

@@ -1,7 +1,7 @@
 FROM -> refer base OS
 RUN -> configure the image, install, create user, folder, etc.
 CMD -> command to start the container
-ENTRYPOINT -> command to start the container, but can't be overriden. used with CMD, CMD can supply default args. Users always can override default args
+ENTRYPOINT ->  command to start the container,but can't be overriden. used with CMD, CMD can supply default args. Users always can override default args
 LABEL -> adds metadata to the image. used to filter
 EXPOSE -> info about ports opened by container
 ENV -> environment variables, containers can use

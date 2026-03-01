@@ -1,5 +1,4 @@
 FROM almalinux:9
-
 LABEL course="docker" \
-      trainer="siva.joindevops" \
-      author="burriraja@gmail.com"
+      trainer="sivakumar" \
+      author="info@joindevops.com"
