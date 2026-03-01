@@ -146,6 +146,24 @@ docker tag image-name:version username/image-name:version
 docker push
 
 
+docker build -t rajasekhar/env:v1 .
+docker images
+docker run container id
+
+
+docker ps -a
+example:-
+=========
+CONTAINER ID   IMAGE          COMMAND        CREATED         STATUS         PORTS     NAM
+e359507e9429   b136534918e0   "sleep 1000"   2 minutes ago   Up 2 minutes             elo
+
+
+docker exec -it e3 bash
+
+to over ride on container
+docker run -d -e COURSE=DEVOPS rajasekhar/env:v1
+
+
 ENV
 =======
 ENV KEY=VALUE
