@@ -140,11 +140,14 @@ EXPOSE -> ports information
 COPY -> copy files from workspace to image
 
 docker build -t URL/username/image-name:version .
-docker build -t joindevops/from:v1 .
+docker build -t rajasekhar1616/from:v1 .
 
 docker tag image-name:version username/image-name:version
 docker push
 
+
+ENV
+=======
 ENV KEY=VALUE
 
 ADD
